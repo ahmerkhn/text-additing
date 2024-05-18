@@ -1,0 +1,64 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Styling</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Text Styling</h1>
+
+  <div class="styled-text" id="text">Yeh ek example hai.</div>
+
+  <input type="text" id="userText" placeholder="Apna text likhein">
+
+  <button onclick="applyStyle('normal')">Normal</button>
+  <button onclick="applyStyle('italic')">Italian</button>
+  <button onclick="applyStyle('underline')">Underline</button>
+  <button onclick="applyStyle('bold')">Bold</button>
+
+  <input type="color" id="colorPicker" onchange="applyColor()">
+</div>
+<script src="app.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Styling</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Text Styling</h1>
+
+  <div class="styled-text" id="text">Yeh ek example hai.</div>
+
+  <input type="text" id="userText" placeholder="Apna text likhein">
+  <br>
+
+  <button onclick="applyStyle('normal')">Normal</button>
+  <button onclick="applyStyle('italic')">Italian</button>
+  <button onclick="applyStyle('underline')">Underline</button>
+  <button onclick="applyStyle('bold')">Bold</button>
+  <br>
+
+  <button onclick="changeFontSize('increase')">Increase Font Size</button>
+  <button onclick="changeFontSize('decrease')">Decrease Font Size</button>
+  <br>
+
+  <input type="color" id="colorPicker" onchange="applyColor()">
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
